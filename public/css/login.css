@@ -1,7 +1,7 @@
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active{
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
     -webkit-background-clip: text;
     -webkit-text-fill-color: #ffffff;
     transition: background-color 5000s ease-in-out 0s;
@@ -17,13 +17,14 @@ body {
     align-items: center;
     justify-content: center;
 }
-.login-form{
+.login-form {
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     border-radius: 10px;
     padding: 10px;
 }
-.login-input, .login-input::placeholder{
+.login-input,
+.login-input::placeholder {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
@@ -32,12 +33,11 @@ body {
     font-size: 25px;
     color: white;
 }
-.login-button{
-    background-color: rgb(75, 75, 239);
+.login-button {
+    background-color: red;
     border: none;
     border-radius: 10px;
     padding: 10px;
     font-size: 30px;
     color: antiquewhite;
 }
-
