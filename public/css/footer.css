@@ -1,12 +1,10 @@
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     text-align: center;
-    padding: 5px 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .footer-link, footer-link:visited{
+    margin: 0px;
     text-decoration: none;
     font-size: 25px;
     color: white;

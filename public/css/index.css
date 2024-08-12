@@ -1,11 +1,16 @@
-.title{
-    font-size: 35px;
-    color: red;
+.grid-container{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto;
 }
-.text{
+.grid-item{
+    margin: 0px;
+}
+.title {
+    font-size: 35px;
+}
+.text {
     margin: 20px;
     width: 70%;
     font-size: 25px;
-    color: red;
-
 }
